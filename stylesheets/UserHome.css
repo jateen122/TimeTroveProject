@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background: linear-gradient(to right, #ffffff, #e9ecef);
+    height: calc(100vh - 100px); /* adjust if needed */
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.shop-btn {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+    background-color: #218838;
+}
+
+.hero-image img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}

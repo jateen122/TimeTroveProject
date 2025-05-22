@@ -1,0 +1,28 @@
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.footer-content a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-bottom: 80px; /* Prevent content from hiding behind the footer */
+}

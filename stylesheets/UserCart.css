@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background: #343a40;
+    color: white;
+}
+
+img {
+    height: 80px;
+}
+
+.actions {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.empty {
+    text-align: center;
+    font-size: 18px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-red {
+    background: #e60023;
+    color: white;
+}
+
+.btn-grey {
+    background: #f0f0f0;
+    color: #333;
+    margin-right: 10px;
+}
+
+.btn-green {
+    background: #28a745;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+#toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    animation: fadeout 4s forwards;
+    z-index: 9999;
+}
+
+@keyframes fadeout {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
